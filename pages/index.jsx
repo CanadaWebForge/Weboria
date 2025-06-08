@@ -19,7 +19,7 @@ const Index = () => {
       >
         <div className="container">
           <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-            Website
+            Création de
             <span className="arrow">
               <img
                 className="wow fadeInLeft delay-0-6s"
@@ -27,29 +27,19 @@ const Index = () => {
                 alt="Arrow"
               />
             </span>
-            Develop Agency
+             sites web
           </h1>
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-3 col-lg-4">
               <div className="hero-two-content mb-50 wow fadeInRight delay-0-2s">
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam reme aperiam eaque
-                  abillo inventore
+                  Chez Weboria, on cultive bien plus que votre image en ligne : on crée des sites qui vous ressemblent.
                 </p>
                 <img
                   className="mt-20"
                   src="assets/images/hero/arrow.png"
                   alt="Arrow"
                 />
-                <div className="authors-text mt-45">
-                  <img src="assets/images/hero/author1.png" alt="Author" />
-                  <img src="assets/images/hero/author2.png" alt="Author" />
-                  <img src="assets/images/hero/author3.png" alt="Author" />
-                  <img src="assets/images/hero/author4.png" alt="Author" />
-                  <i className="fal fa-plus" />
-                  <span className="text">100+ Popular Clients</span>
-                </div>
               </div>
             </div>
             <div className="col-lg-6">
@@ -57,16 +47,18 @@ const Index = () => {
                 <img src="assets/images/hero/hero-two.jpg" alt="Hero" />
               </div>
             </div>
-            <div className="col-lg-2">
-              <div className="hero-two-btn mb-50 wow fadeInLeft delay-0-2s">
-                <Link legacyBehavior href="/about">
-                  <a className="explore-more">
-                    <i className="fas fa-arrow-right" />{" "}
-                    <span>Explore more</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
+            <div className="col-lg-2 text-center text-lg-start">
+  <div className="hero-two-btn mb-50 wow fadeInLeft delay-0-2s d-inline-block">
+    <Link legacyBehavior href="/about">
+      <a className="explore-more">
+        <i className="fas fa-arrow-right" />
+        <span>Explorer plus</span>
+      </a>
+    </Link>
+  </div>
+</div>
+
+
           </div>
         </div>
       </section>
@@ -87,34 +79,29 @@ const Index = () => {
                   <img src="assets/images/banner/add-banner.png" alt="Banner" />
                 </div>
                 <div className="content mt-20">
-                  <span className="number">150+</span>
-                  <h6>Project Complete</h6>
+                  <span className="number">30+</span>
+                  <h6>Projets réalisés</h6>
                   <hr />
-                  <p>Quis autem vel eum reprehe voluptate velit esse quam</p>
+                  <p>Nous transformons vos idées en solutions concrètes et efficaces.</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp delay-0-4s">
-              <div
-                className="advertise-banner style-two bg-white"
-                style={{
-                  backgroundImage: "url(assets/images/banner/star-vector.png)",
-                }}
-              >
-                <h3>Innovative Web Development Solutions</h3>
-                <hr className="mb-35" />
-                <div className="authors-text">
-                  <img src="assets/images/hero/author1.png" alt="Author" />
-                  <img src="assets/images/hero/author2.png" alt="Author" />
-                  <img src="assets/images/hero/author3.png" alt="Author" />
-                  <img src="assets/images/hero/author4.png" alt="Author" />
-                  <i className="fal fa-plus" />
-                  <span className="text">
-                    We denounce indignatione dislike mende charms
-                  </span>
-                </div>
-              </div>
-            </div>
+  <div className="inspire-box">
+    <div className="icon-wrap">
+      <i className="fas fa-bolt" />
+    </div>
+    <h3 className="inspire-title">Pourquoi créer un site web ?</h3>
+    <p className="inspire-text">
+      Cela valorise votre enseigne, vous distingue de la concurrence, et vous permet de convertir plus de clients efficacement.
+    </p>
+    <Link href="/contact" legacyBehavior>
+      <a className="contact-bubble-btn">Devis Gratuit</a>
+    </Link>
+  </div>
+</div>
+
+
           </div>
         </div>
       </section>
@@ -128,15 +115,12 @@ const Index = () => {
             <div className="col-lg-7">
               <div className="about-content">
                 <div className="section-title mb-40 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">About Company</span>
-                  <h2>We’re Award-winning Web Development Agency</h2>
+                  <span className="sub-title mb-15">À propos de nous</span>
+                  <h2>Une agence web primée au service de vos projets</h2>
                 </div>
                 <div className="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                    emey accusantium doloremque laudantium totam aperiam eaque
-                    quabillo inventore veritatisey quasi architecto beatae
-                    dictasunt
+                    Chez Weboria, chaque ligne de code est pensée pour concrétiser vos idées. Notre mission : concevoir des sites web modernes, performants et à votre image. Passionnés, créatifs et engagés, nous vous accompagnons dans chaque étape de votre transformation numérique.
                   </p>
                 </div>
                 <div className="about-counter">
@@ -145,20 +129,20 @@ const Index = () => {
                       <div className="counter-item-two counter-text-wrap wow fadeInUp delay-0-2s">
                         <Counter end={100} extraClass={"percent"} />
                         <span className="counter-title">
-                          Clients Satisfactions
+                          Clients satisfaits
                         </span>
                       </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="counter-item-two counter-text-wrap wow fadeInUp delay-0-3s">
-                        <Counter end={93} extraClass={"percent"} />
-                        <span className="counter-title">Success Rating</span>
+                        <Counter end={100} extraClass={"percent"} />
+                        <span className="counter-title">Taux de réussite</span>
                       </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="counter-item-two counter-text-wrap wow fadeInUp delay-0-4s">
-                        <Counter end={35} extraClass={"percent"} />
-                        <span className="counter-title">Project Complete</span>
+                        <Counter end={35} />
+                        <span className="counter-title">Projets complétés</span>
                       </div>
                     </div>
                   </div>
@@ -184,9 +168,9 @@ const Index = () => {
             <div className="col-xl-5">
               <div className="about-content mb-35 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-15">What We Offer</span>
+                  <span className="sub-title mb-15">Ce que nous proposons</span>
                   <h2>
-                    We are Affordable Website Design and Development agency
+                    Création de sites web performants, rapides et abordables
                   </h2>
                 </div>
               </div>
@@ -195,20 +179,20 @@ const Index = () => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="service-list mb-35 wow fadeInUp delay-0-4s">
-                    <ul className="list-style-three">
-                      <li>Responsive Website Design</li>
-                      <li>User Experience Design</li>
-                      <li>CMS and e-Commerce Integration</li>
-                      <li>Website Content Strategy</li>
-                    </ul>
+                   <ul className="list-style-three">
+                <li>Design web responsive</li>
+                <li>Expérience utilisateur optimisée</li>
+                <li>Intégration CMS et e-Commerce</li>
+                <li>Stratégie de contenu web</li>
+              </ul>
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="service-list mb-35 wow fadeInUp delay-0-6s">
                     <ul className="list-style-three">
-                      <li>Cross Browser and Platform</li>
-                      <li>Responsive Website Design</li>
-                      <li>Usability and Competition</li>
+                      <li>Tarifs concurrentiels</li>
+                <li>Livraison rapide et efficace</li>
+                <li>Communication continue avec le client</li>
                     </ul>
                   </div>
                 </div>
@@ -221,7 +205,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <span className="big-text">Web Development</span>
+        <span className="big-text">Notre Processus</span>
       </section>
       {/* Services Page About Area end */}
       {/* Service Style Two start */}
@@ -232,108 +216,66 @@ const Index = () => {
               <div className="row">
                 <div className="col-xl-10">
                   <div className="section-title mb-30 wow fadeInRight delay-0-2s">
-                    <span className="sub-title mb-15">What We Do</span>
-                    <h2>Special Solutions For Web Development</h2>
+                    <span className="sub-title mb-15">Les grandes étapes</span>
+                    <h2>Les grandes étapes d’un projet web réussi</h2>
                     <div className="text pt-20">
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium totam
+                      Découvrez comment nous transformons vos idées en solutions digitales concrètes et performantes.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-two wow fadeInLeft delay-0-2s">
-                <div className="icon">
-                  <i className="fal fa-gem" />
-                </div>
-                <h5>
-                  <Link legacyBehavior href="/service-details">
-                    Make Strategy
-                  </Link>
-                </h5>
-                <p>Sedut persiciatis unde omnis este natus error volutat</p>
-                <Link legacyBehavior href="/service-details">
-                  <a className="read-more style-two">
-                    <span>Read More</span> <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-two wow fadeInLeft delay-0-4s">
-                <div className="icon">
-                  <i className="fal fa-ball-pile" />
-                </div>
-                <h5>
-                  <Link legacyBehavior href="/service-details">
-                    Website Design
-                  </Link>
-                </h5>
-                <p>Sedut persiciatis unde omnis este natus error volutat</p>
-                <Link legacyBehavior href="/service-details">
-                  <a className="read-more style-two">
-                    <span>Read More</span> <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-two wow fadeInLeft delay-0-2s">
-                <div className="icon">
-                  <i className="fal fa-code" />
-                </div>
-                <h5>
-                  <Link legacyBehavior href="/service-details">
-                    Development
-                  </Link>
-                </h5>
-                <p>Sedut persiciatis unde omnis este natus error volutat</p>
-                <Link legacyBehavior href="/service-details">
-                  <a className="read-more style-two">
-                    <span>Read More</span> <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-two wow fadeInLeft delay-0-4s">
-                <div className="icon">
-                  <i className="fal fa-tools" />
-                </div>
-                <h5>
-                  <Link legacyBehavior href="/service-details">
-                    Project Testing
-                  </Link>
-                </h5>
-                <p>Sedut persiciatis unde omnis este natus error volutat</p>
-                <Link legacyBehavior href="/service-details">
-                  <a className="read-more style-two">
-                    <span>Read More</span> <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-item style-two wow fadeInLeft delay-0-6s">
-                <div className="icon">
-                  <i className="fal fa-ufo-beam" />
-                </div>
-                <h5>
-                  <Link legacyBehavior href="/service-details">
-                    Project Lunch
-                  </Link>
-                </h5>
-                <p>Sedut persiciatis unde omnis este natus error volutat</p>
-                <Link legacyBehavior href="/service-details">
-                  <a className="read-more style-two">
-                    <span>Read More</span> <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
+        <div className="service-item style-two wow fadeInLeft delay-0-2s">
+          <div className="icon">
+            <i className="fal fa-gem" />
           </div>
+          <h5>Élaboration de la stratégie</h5>
+          <p>Analyse des besoins, des objectifs et du public cible pour poser des bases solides.</p>
         </div>
+      </div>
+
+      <div className="col-xl-3 col-lg-4 col-md-6">
+        <div className="service-item style-two wow fadeInLeft delay-0-4s">
+          <div className="icon">
+            <i className="fal fa-ball-pile" />
+          </div>
+          <h5>Conception du design</h5>
+          <p>Création d’une interface intuitive et esthétique, pensée pour l’utilisateur.</p>
+        </div>
+      </div>
+
+      <div className="col-xl-3 col-lg-4 col-md-6">
+        <div className="service-item style-two wow fadeInLeft delay-0-2s">
+          <div className="icon">
+            <i className="fal fa-code" />
+          </div>
+          <h5>Développement</h5>
+          <p>Intégration front-end et back-end avec les technologies les plus adaptées à votre projet.</p>
+        </div>
+      </div>
+
+      <div className="col-xl-3 col-lg-4 col-md-6">
+        <div className="service-item style-two wow fadeInLeft delay-0-4s">
+          <div className="icon">
+            <i className="fal fa-tools" />
+          </div>
+          <h5>Tests & Optimisation</h5>
+          <p>Vérification des performances et compatibilités avant le lancement.</p>
+        </div>
+      </div>
+
+      <div className="col-xl-3 col-lg-4 col-md-6">
+        <div className="service-item style-two wow fadeInLeft delay-0-6s">
+          <div className="icon">
+            <i className="fal fa-rocket-launch" />
+          </div>
+          <h5>Lancement du projet</h5>
+          <p>Mise en ligne officielle et accompagnement pour une transition fluide et réussie.</p>
+        </div>
+      </div>
+    </div>
+  </div>
       </section>
       {/* Service Style Four start */}
       <section className="about-area-six pt-130 rpt-100 pb-80 rpb-50 rel z-1">
