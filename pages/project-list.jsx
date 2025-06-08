@@ -1,11 +1,9 @@
-import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const ProjectList = () => {
   return (
     <Layout>
       {/* Page Banner Start */}
-      <PageBanner pageName={"Project List"} />
       {/* Page Banner End */}
       {/* Project List Area start */}
       <section className="project-list-area pt-130 rpt-100 pb-10 rpb-25">
@@ -13,58 +11,52 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-list1.jpg"
+                src="assets/images/projects/dashboard.png"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/DashboardDetails">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="content wow fadeInRight delay-0-2s">
-              <Link legacyBehavior href="/projects">
-                <a className="category">Creative Work</a>
-              </Link>
+                <a className="category">Produit numérique</a>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/DashboardDetails">
                   <a>
-                    Task Management <i>Dashboard</i>
+                     Tableau de Bord <i>Gestion de Tâches</i>
                   </a>
                 </Link>
               </h2>
               <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Une application web intuitive de gestion de tâches, avec tableau de bord interactif, conçue pour optimiser l’organisation et la productivité.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/DashboardDetails">
                 <a className="read-more">
-                  Project Details <i className="far fa-arrow-right" />
+                  Détails du Projet <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
           </div>
           <div className="project-item style-two">
             <div className="content wow fadeInLeft delay-0-2s">
-              <Link legacyBehavior href="/projects">
-                <a className="category">Digital Product</a>
-              </Link>
+                <a className="category">Produit numérique</a>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/MeteoDetails">
                   <a>
-                    Mobile Application <i>Development</i>
+                    Application Mobile de <i>Météo</i>
                   </a>
                 </Link>
               </h2>
               <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Une application mobile météo moderne offrant des prévisions précises en temps réel avec une interface claire et intuitive.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/MeteoDetails">
                 <a className="read-more">
-                  Project Details <i className="far fa-arrow-right" />
+                  Détails du Projet <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
@@ -83,7 +75,7 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-list3.jpg"
+                src="assets/images/projects/ecommerce.png"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -93,54 +85,48 @@ const ProjectList = () => {
               </Link>
             </div>
             <div className="content wow fadeInRight delay-0-2s">
-              <Link legacyBehavior href="/projects">
-                <a className="category">Creative Work</a>
-              </Link>
+                <a className="category">Produit numérique</a>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/EcommerceDetails">
                   <a>
-                    Product Design &amp; <i>Branding</i>
+                    Site web <i>E-commerce</i>
                   </a>
                 </Link>
               </h2>
               <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Un site e-commerce moderne conçu pour offrir une expérience d’achat fluide, sécurisée et optimisée sur tous les appareils.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/EcommerceDetails">
                 <a className="read-more">
-                  Project Details <i className="far fa-arrow-right" />
+                  Détails du Projet <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
           </div>
           <div className="project-item style-two">
             <div className="content wow fadeInLeft delay-0-2s">
-              <Link legacyBehavior href="/projects">
-                <a className="category">Digital Product</a>
-              </Link>
+                <a className="category">Produit numérique</a>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/PortfolioDetails">
                   <a>
-                    Digital Content For <i>Web Development</i>
+                    Contenu web pour un <i>Portfolio</i>
                   </a>
                 </Link>
               </h2>
               <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                 Un projet de portfolio innovant mettant en valeur des compétences en design et développement web pour une meilleure visibilité en ligne.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/PortfolioDetails">
                 <a className="read-more">
-                  Project Details <i className="far fa-arrow-right" />
+                  Détails du Projet <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="image wow fadeInRight delay-0-2s">
               <img
-                src="assets/images/projects/project-list4.jpg"
+                src="assets/images/projects/portfoliopers.png"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -153,7 +139,7 @@ const ProjectList = () => {
           <div className="project-item style-two">
             <div className="image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/project-list5.jpg"
+                src="assets/images/projects/resto.png"
                 alt="Project List"
               />
               <Link legacyBehavior href="/project-details">
@@ -163,57 +149,51 @@ const ProjectList = () => {
               </Link>
             </div>
             <div className="content wow fadeInRight delay-0-2s">
-              <Link legacyBehavior href="/projects">
-                <a className="category">Creative Work</a>
-              </Link>
+                <a className="category">Produit numérique</a>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/RestaurantDetails">
                   <a>
-                    Product Design <i>&amp; Branding</i>
+                    Site web de <i> restaurant</i>
                   </a>
                 </Link>
               </h2>
               <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Plateforme complète permettant la commande en ligne, la gestion des commandes et un tableau de bord pour les restaurateurs.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/RestaurantDetails">
                 <a className="read-more">
-                  Project Details <i className="far fa-arrow-right" />
+                  Détails du Projet <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
           </div>
           <div className="project-item style-two">
             <div className="content wow fadeInLeft delay-0-2s">
-              <Link legacyBehavior href="/projects">
-                <a className="category">Digital Product</a>
-              </Link>
+                <a className="category">Produit numérique</a>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/GarderieDetails">
                   <a>
-                    Digital Content For <i>Web Development</i>
+                    Site vitrine de <i>Garderie</i>
                   </a>
                 </Link>
               </h2>
               <hr />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sitesy
-                voluptatem accusantium doloremque lauda
+                Un site web informatif conçu pour présenter les services, valeurs et activités d’une enseigne et faciliter le contact avec les clients.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/GarderieDetails">
                 <a className="read-more">
-                  Project Details <i className="far fa-arrow-right" />
+                  Détails du Projet <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="image wow fadeInRight delay-0-2s">
               <img
-                src="assets/images/projects/project-list6.jpg"
+                src="assets/images/projects/garderie.png"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/GarderieDetails">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -225,24 +205,25 @@ const ProjectList = () => {
       {/* Project List Area end */}
       {/* Work With Area start */}
       <section className="work-with-area pb-150 rpb-145 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center pb-45 rpb-25">
-            <div className="col-xl-7 col-lg-9">
-              <div className="section-title text-center wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Work With Us</span>
-                <h2>Have Any Projects On Minds! Feel Free to Contact Us</h2>
-                <Link legacyBehavior href="/contact">
-                  <a className="explore-more text-start mt-30">
-                    <i className="fas fa-arrow-right" />{" "}
-                    <span>Explore more</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
+  <div className="container">
+    <div className="row justify-content-center pb-45 rpb-25">
+      <div className="col-xl-7 col-lg-9">
+        <div className="section-title text-center wow fadeInUp delay-0-2s">
+          <span className="sub-title mb-15">Travaillons ensemble</span>
+          <h2>Vous avez un projet en tête ? N'hésitez pas à nous contacter</h2>
+          <Link legacyBehavior href="/contact">
+            <a className="explore-more text-start mt-30">
+              <i className="fas fa-arrow-right" />{" "}
+              <span>Parlez Nous</span>
+            </a>
+          </Link>
         </div>
-        <span className="big-text light-opacity">Let’s Work Together</span>
-      </section>
+      </div>
+    </div>
+  </div>
+  <span className="big-text light-opacity">Travailler ensemble</span>
+</section>
+
       {/* Work With Area end */}
       {/* footer area start */}
     </Layout>

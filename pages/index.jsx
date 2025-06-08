@@ -290,9 +290,9 @@ const Index = () => {
                   />
                 </div>
                 <div className="section-title">
-                  <span className="sub-title mb-15">About Company</span>
+                  <span className="sub-title mb-15">À propos de l'entreprise</span>
                   <h2>
-                    Our Main Goal to Satisficed Local &amp; Global Clients
+                    Notre objectif principal est de satisfaire nos clients locaux et internationaux
                   </h2>
                 </div>
               </div>
@@ -309,13 +309,12 @@ const Index = () => {
                     <i className="far fa-rocket-launch" />
                   </div>
                   <div className="content">
-                    <h5>Company Mission</h5>
+                    <h5>Notre Mission</h5>
                     <p>
-                      Our mission is to empower businesses with cutting-edge
-                      digital solutions
+                      Notre mission est de vous aider à développer votre activité en ligne en vous créant un site web professionnel qui inspire confiance, augmente votre visibilité et attire plus de clients. 
                     </p>
-                    <Link className="read-more" href="service-details">
-                      <span>Read More</span>{" "}
+                    <Link className="read-more" href="services">
+                      <span>En Savoir Plus</span>{" "}
                       <i className="far fa-arrow-right" />
                     </Link>
                   </div>
@@ -325,13 +324,12 @@ const Index = () => {
                     <i className="far fa-bullseye-arrow" />
                   </div>
                   <div className="content">
-                    <h5>Company Vision &amp; Goals</h5>
+                    <h5>Vision et objectifs</h5>
                     <p>
-                      We are dedicated to crafting digitals experiences that
-                      seamlessly
+                      Nous croyons que chaque entreprise, peu importe sa taille, mérite une présence en ligne forte. Notre objectif est de concevoir des sites modernes, rapides et orientés conversion pour transformer vos visiteurs en clients.
                     </p>
-                    <Link className="read-more" href="service-details">
-                      <span>Read More</span>{" "}
+                    <Link className="read-more" href="services">
+                      <span>En Savoir Plus</span>{" "}
                       <i className="far fa-arrow-right" />
                     </Link>
                   </div>
@@ -350,157 +348,161 @@ const Index = () => {
       {/* About Us Area end */}
       {/* Services Area start */}
       <section className="services-area-six pb-100 rpb-70 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-8">
-              <div className="section-title text-center mb-70 rmb-50 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Popular Services</span>
-                <h2>We Provide Amazing Web Design Solutions</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="service-six-item wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="fal fa-bezier-curve" />
-                </div>
-                <div className="content">
-                  <h5>
-                    <Link href="service-details">Website Design</Link>
-                  </h5>
-                  <p>We denounce with righteous indignation</p>
-                </div>
-                <a className="details-btn" href="#">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="service-six-item wow fadeInUp delay-0-4s">
-                <div className="icon">
-                  <i className="fal fa-telescope" />
-                </div>
-                <div className="content">
-                  <h5>
-                    <Link href="service-details">Digital Marketing</Link>
-                  </h5>
-                  <p>We denounce with righteous indignation</p>
-                </div>
-                <a className="details-btn" href="#">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="service-six-item wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="fal fa-telescope" />
-                </div>
-                <div className="content">
-                  <h5>
-                    <Link href="service-details">Mobile Apps Design</Link>
-                  </h5>
-                  <p>We denounce with righteous indignation</p>
-                </div>
-                <a className="details-btn" href="#">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="service-six-item wow fadeInUp delay-0-4s">
-                <div className="icon">
-                  <i className="fal fa-laptop-code" />
-                </div>
-                <div className="content">
-                  <h5>
-                    <Link href="service-details">Web Development</Link>
-                  </h5>
-                  <p>We denounce with righteous indignation</p>
-                </div>
-                <a className="details-btn" href="#">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="service-six-item wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="fal fa-mail-bulk" />
-                </div>
-                <div className="content">
-                  <h5>
-                    <Link href="service-details">
-                      Email &amp; Content Marketing
-                    </Link>
-                  </h5>
-                  <p>We denounce with righteous indignation</p>
-                </div>
-                <a className="details-btn" href="#">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="service-six-item wow fadeInUp delay-0-4s">
-                <div className="icon">
-                  <i className="fal fa-file-contract" />
-                </div>
-                <div className="content">
-                  <h5>
-                    <Link href="service-details">Design &amp; Branding</Link>
-                  </h5>
-                  <p>We denounce with righteous indignation</p>
-                </div>
-                <a className="details-btn" href="#">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </div>
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-xl-6 col-lg-8">
+        <div className="section-title text-center mb-70 rmb-50 wow fadeInUp delay-0-2s">
+          <span className="sub-title mb-15">Services Populaires</span>
+          <h2>Nous offrons des solutions web modernes et efficaces</h2>
         </div>
-        <div className="bg-lines">
-          <span />
-          <span />
-          <span />
-          <span />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-lg-6">
+        <div className="service-six-item wow fadeInUp delay-0-2s">
+          <div className="icon">
+            <i className="fal fa-bezier-curve" />
+          </div>
+          <div className="content">
+            <h5>
+              <Link href="pricing">Design de sites web</Link>
+            </h5>
+            <p>Création de designs modernes, intuitifs et adaptés à tous les supports (mobile, tablette, ordinateur).</p>
+          </div>
+          <a className="details-btn" href="#">
+            <i className="far fa-arrow-right" />
+          </a>
         </div>
-      </section>
+      </div>
+
+      <div className="col-lg-6">
+        <div className="service-six-item wow fadeInUp delay-0-4s">
+          <div className="icon">
+            <i className="fal fa-telescope" />
+          </div>
+          <div className="content">
+            <h5>
+              <Link href="pricing">Marketing numérique</Link>
+            </h5>
+            <p>Optimisation SEO, publicité en ligne, et stratégie de contenu pour attirer plus de clients.</p>
+          </div>
+          <a className="details-btn" href="#">
+            <i className="far fa-arrow-right" />
+          </a>
+        </div>
+      </div>
+
+      <div className="col-lg-6">
+        <div className="service-six-item wow fadeInUp delay-0-2s">
+          <div className="icon">
+            <i className="fal fa-mobile-alt" />
+          </div>
+          <div className="content">
+            <h5>
+              <Link href="pricing">Design d'applications mobiles</Link>
+            </h5>
+            <p>Conception d’interfaces fluides et attrayantes pour applications Android et iOS.</p>
+          </div>
+          <a className="details-btn" href="#">
+            <i className="far fa-arrow-right" />
+          </a>
+        </div>
+      </div>
+
+      <div className="col-lg-6">
+        <div className="service-six-item wow fadeInUp delay-0-4s">
+          <div className="icon">
+            <i className="fal fa-laptop-code" />
+          </div>
+          <div className="content">
+            <h5>
+              <Link href="pricing">Développement web</Link>
+            </h5>
+            <p>Développement de sites performants, sécurisés et sur mesure adaptés à vos besoins.</p>
+          </div>
+          <a className="details-btn" href="#">
+            <i className="far fa-arrow-right" />
+          </a>
+        </div>
+      </div>
+
+      <div className="col-lg-6">
+        <div className="service-six-item wow fadeInUp delay-0-2s">
+          <div className="icon">
+            <i className="fal fa-mail-bulk" />
+          </div>
+          <div className="content">
+            <h5>
+              <Link href="pricing">Email &amp; Marketing de contenu</Link>
+            </h5>
+            <p>Création de campagnes ciblées pour fidéliser votre audience et convertir vos prospects.</p>
+          </div>
+          <a className="details-btn" href="#">
+            <i className="far fa-arrow-right" />
+          </a>
+        </div>
+      </div>
+
+      <div className="col-lg-6">
+        <div className="service-six-item wow fadeInUp delay-0-4s">
+          <div className="icon">
+            <i className="fal fa-file-contract" />
+          </div>
+          <div className="content">
+            <h5>
+              <Link href="pricing">Design graphique &amp; Branding</Link>
+            </h5>
+            <p>Création de logos, chartes graphiques et identités visuelles qui marquent les esprits.</p>
+          </div>
+          <a className="details-btn" href="#">
+            <i className="far fa-arrow-right" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="bg-lines">
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+</section>
       {/* Service Style Four end */}
       {/* Headline area start */}
       <div className="headline-area bgc-primary pt-80 pb-65">
-        <div className="container-fluid">
-          <div className="headline-wrap marquee">
-            <span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Web Design</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Product Design</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Web Development</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>SEO Optimization</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>UX/UI Strategy</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Graphics</b>
-              </span>
-            </span>
-          </div>
-        </div>
-      </div>
+  <div className="container-fluid">
+    <div className="headline-wrap marquee">
+      <span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Concéption Web</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Design web</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Développement Web</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Optimisation SEO</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Stratégie UX/UI</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Graphisme</b>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+
       {/* Headline Area end */}
       {/* Project Timeline-two Area start */}
       <section className="project-timeline-two-area pt-130 rpt-100 rel z-1">
@@ -942,36 +944,36 @@ const Index = () => {
       {/* Testimonial Area end */}
       {/* Work With Area start */}
       <section className="work-with-area pt-70 rpt-40 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center pb-45 rpb-25">
-            <div className="col-xl-7 col-lg-9">
-              <div className="section-title style-two text-center mb-25 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Work With Us</span>
-                <h2>
-                  Have Any Projects On Minds! Feel Free to <i>Contact Us</i>
-                </h2>
-                <Link legacyBehavior href="/contact">
-                  <a className="theme-btn style-two mt-35">
-                    Let’s Work Together <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Work With Area end */}
-      {/* Headline area start */}
-      <div className="headline-area rel z-1 move-top pb-120 rpb-80">
-        <div className="container-fluid">
-          <div className="headline-text marquee pb-20 style-two">
-            <span>
-              <span>Let’s Work Together</span>
-            </span>
-          </div>
+  <div className="container">
+    <div className="row justify-content-center pb-45 rpb-25">
+      <div className="col-xl-7 col-lg-9">
+        <div className="section-title style-two text-center mb-25 wow fadeInUp delay-0-2s">
+          <span className="sub-title mb-15">Travaillons ensemble</span>
+          <h2>
+            Vous avez un projet en tête ? N’hésitez pas à <i>nous contacter</i>
+          </h2>
+          <Link legacyBehavior href="/contact">
+            <a className="theme-btn style-two mt-35">
+              Discutons ensemble <i className="far fa-arrow-right" />
+            </a>
+          </Link>
         </div>
       </div>
-      {/* Headline Area end */}
+    </div>
+  </div>
+</section>
+
+{/* Headline area start */}
+<div className="headline-area rel z-1 move-top pb-120 rpb-80">
+  <div className="container-fluid">
+    <div className="headline-text marquee pb-20 style-two">
+      <span>
+        <span>Discutons ensemble</span>
+      </span>
+    </div>
+  </div>
+</div>
+
     </Layout>
   );
 };
