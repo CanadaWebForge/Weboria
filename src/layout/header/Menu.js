@@ -29,7 +29,7 @@ const DaskTopMenu = () => {
         </Link>
       </li>
       <li>
-        <Link legacyBehavior href="/index2">
+        <Link legacyBehavior href="/Designweb">
           <a>Design Web</a>
         </Link>
       </li>
@@ -82,7 +82,7 @@ const MobileMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="index2">
+                <Link legacyBehavior href="Designweb">
                   Design Web 
                 </Link>
               </li>

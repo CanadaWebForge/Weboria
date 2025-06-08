@@ -506,441 +506,341 @@ const Index = () => {
       {/* Headline Area end */}
       {/* Project Timeline-two Area start */}
       <section className="project-timeline-two-area pt-130 rpt-100 rel z-1">
-        <div className="container container-1290">
-          <div className="row">
-            <div className="col-xl-6 col-lg-8">
-              <div className="section-title mb-70 rmb-30 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Recent Works Gallery</span>
-                <h2>Lat’s Look Our Recent Project Gallery</h2>
-              </div>
-            </div>
-            <div className="col-xl-6 col-lg-4 text-lg-end">
-              <Link legacyBehavior href="/projects">
-                <a className="explore-more rmb-50 wow fadeInRight delay-0-2s">
-                  <i className="fas fa-arrow-right" /> <span>Explore more</span>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="row gap-90">
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">01</span>
-                <h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a>Business Task Management Dashboard Design</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="#">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">02</span>
-                <h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a>PSD, Figma &amp; XD to HTML Design &amp; Development</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="#">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">03</span>
-                <h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a>Mobile Application Design &amp; Development</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="#">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">04</span>
-                <h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a>Business Development and Marketing Strategy</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="#">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">05</span>
-                <h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a>eCommerce React Website Development</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="#">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">06</span>
-                <h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a>3D Flat UI UX Landing Page Design &amp; Development</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-timeline-two1.jpg"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="#">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="container container-1290">
+    <div className="row">
+      <div className="col-xl-6 col-lg-8">
+        <div className="section-title mb-70 rmb-30 wow fadeInUp delay-0-2s">
+          <span className="sub-title mb-15">Notre Portfolio</span>
+          <h2>Découvrez Nos Récentes Réalisations</h2>
         </div>
-      </section>
-      {/* Project Timeline Two Area end */}
-      {/* Why Choose Us start */}
-      <section className="demo-area pt-100 rpt-70 rel z-1">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-6 col-lg-8">
-              <div className="why-choose-us-content">
-                <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Why Choose Us</span>
-                  <h2>Web Design Company That You Can Trust</h2>
-                </div>
-                <div className="row gap-60">
-                  <div className="col-md-6">
-                    <div className="why-choose-item wow fadeInUp delay-0-2s">
-                      <div className="why-choose-header">
-                        <i className="far fa-chevron-right" />
-                        <h5>Competitive rates</h5>
-                      </div>
-                      <p>
-                        We use strategic marketing tactics that have been proven
-                        programming
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="why-choose-item wow fadeInUp delay-0-3s">
-                      <div className="why-choose-header">
-                        <i className="far fa-chevron-right" />
-                        <h5>Premium Development</h5>
-                      </div>
-                      <p>
-                        Sed perspiciatis unde omnie natue site voluptatem
-                        accusan doloremque
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="why-choose-item wow fadeInUp delay-0-2s">
-                      <div className="why-choose-header">
-                        <i className="far fa-chevron-right" />
-                        <h5>No contracts needed</h5>
-                      </div>
-                      <p>
-                        You can increase, pause or stop our services at any time
-                        leaving
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="why-choose-item wow fadeInUp delay-0-3s">
-                      <div className="why-choose-header">
-                        <i className="far fa-chevron-right" />
-                        <h5>Retina Ready &amp; Flexible</h5>
-                      </div>
-                      <p>
-                        Devices show more pixels square inch resulting sharperes
-                        images Content
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div className="why-choose-right wow fadeInLeft delay-0-2s">
-                <img
-                  src="assets/images/services/why-choose-right.png"
-                  alt="Why Choose Right"
-                />
-                <div className="why-choose-border-shape" />
-                <div className="text-shape">
-                  <img
-                    className="text"
-                    src="assets/images/services/web-design-text.svg"
-                    alt="Web Design Text"
-                  />
-                </div>
-              </div>
-            </div>
+      </div>
+    </div>
+    <div className="row gap-90">
+      <div className="col-lg-6">
+        <div className="project-timeline-two wow fadeInUp delay-0-2s">
+          <span className="serial-number">01</span>
+          <h4>
+            <Link legacyBehavior href="/DashboardDetails">
+              <a>Tableau de Bord Gestion de Tâches</a>
+            </Link>
+          </h4>
+          <div className="image">
+            <img src="assets/images/projects/dashboard.png" alt="Dashboard" />
           </div>
-        </div>
-      </section>
-      {/* Why Choose Us end */}
-      {/* Headline area start */}
-      <div className="headline-area style-two bgc-primary pt-80 pb-65">
-        <div className="container-fluid">
-          <div className="headline-wrap marquee">
-            <span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Clients Say Us</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Global Clients</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Awards Winning</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Clients Say Us</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Global Clients</b>
-              </span>
-              <span className="marquee-item">
-                <i className="fas fa-star-of-life" />
-                <b>Awards Winning</b>
-              </span>
-            </span>
+          <div className="right-btn">
+            <Link legacyBehavior href="/DashboardDetails">
+              <a><i className="fal fa-long-arrow-right" /></a>
+            </Link>
           </div>
         </div>
       </div>
-      {/* Headline Area end */}
-      {/* Testimonial Area start */}
-      <section className="testimonial-section pt-130 rpt-90">
-        <div className="container container-1210">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="image-border-shape rmb-20 wow fadeInRight delay-0-2s">
-                <img
-                  src="assets/images/testimonials/testimonials-four.jpg"
-                  alt="Testimonial Left Image"
-                />
-                <div className="bottom-border" />
+      <div className="col-lg-6">
+        <div className="project-timeline-two wow fadeInUp delay-0-4s">
+          <span className="serial-number">02</span>
+          <h4>
+            <Link legacyBehavior href="/MeteoDetails">
+              <a>Application Mobile de Météo</a>
+            </Link>
+          </h4>
+          <div className="image">
+            <img src="assets/images/projects/project-list2.jpg" alt="Météo" />
+          </div>
+          <div className="right-btn">
+            <Link legacyBehavior href="/MeteoDetails">
+              <a><i className="fal fa-long-arrow-right" /></a>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="project-timeline-two wow fadeInUp delay-0-2s">
+          <span className="serial-number">03</span>
+          <h4>
+            <Link legacyBehavior href="/EcommerceDetails">
+              <a>Site web E-commerce</a>
+            </Link>
+          </h4>
+          <div className="image">
+            <img src="assets/images/projects/ecommerce.png" alt="E-commerce" />
+          </div>
+          <div className="right-btn">
+            <Link legacyBehavior href="/EcommerceDetails">
+              <a><i className="fal fa-long-arrow-right" /></a>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="project-timeline-two wow fadeInUp delay-0-4s">
+          <span className="serial-number">04</span>
+          <h4>
+            <Link legacyBehavior href="/PortfolioDetails">
+              <a>Contenu web pour un Portfolio</a>
+            </Link>
+          </h4>
+          <div className="image">
+            <img src="assets/images/projects/portfoliopers.png" alt="Portfolio" />
+          </div>
+          <div className="right-btn">
+            <Link legacyBehavior href="/PortfolioDetails">
+              <a><i className="fal fa-long-arrow-right" /></a>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="project-timeline-two wow fadeInUp delay-0-2s">
+          <span className="serial-number">05</span>
+          <h4>
+            <Link legacyBehavior href="/RestaurantDetails">
+              <a>Site web de restaurant</a>
+            </Link>
+          </h4>
+          <div className="image">
+            <img src="assets/images/projects/resto.png" alt="Restaurant" />
+          </div>
+          <div className="right-btn">
+            <Link legacyBehavior href="/RestaurantDetails">
+              <a><i className="fal fa-long-arrow-right" /></a>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="project-timeline-two wow fadeInUp delay-0-4s">
+          <span className="serial-number">06</span>
+          <h4>
+            <Link legacyBehavior href="/GarderieDetails">
+              <a>Site vitrine de Garderie</a>
+            </Link>
+          </h4>
+          <div className="image">
+            <img src="assets/images/projects/garderie.png" alt="Garderie" />
+          </div>
+          <div className="right-btn">
+            <Link legacyBehavior href="/GarderieDetails">
+              <a><i className="fal fa-long-arrow-right" /></a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      {/* Project Timeline Two Area end */}
+      {/* Pourquoi nous choisir - start */}
+<section className="demo-area pt-100 rpt-70 rel z-1">
+  <div className="container">
+    <div className="row">
+      <div className="col-xl-6 col-lg-8">
+        <div className="why-choose-us-content">
+          <div className="section-title mb-60 wow fadeInUp delay-0-2s">
+            <span className="sub-title mb-15">Pourquoi nous choisir</span>
+            <h2>Une agence web sur laquelle vous pouvez compter</h2>
+          </div>
+          <div className="row gap-60">
+            <div className="col-md-6">
+              <div className="why-choose-item wow fadeInUp delay-0-2s">
+                <div className="why-choose-header">
+                  <i className="far fa-chevron-right" />
+                  <h5>Tarifs concurrentiels</h5>
+                </div>
+                <p>
+                  Nous offrons un rapport qualité-prix exceptionnel sans compromis sur la qualité, grâce à une approche stratégique éprouvée.
+                </p>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="testimonial-one-right-part">
-                <Swiper
-                  {...sliderProps.testimonialsActiveSwiper}
-                  className="testimonials-active wow fadeInUp delay-0-2s"
-                >
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item">
-                    <div className="author-speech">
-                      <p>
-                        <span className="quote">“</span> On the other hand we
-                        denounce with see righteous indignation and dislike men
-                        who are beguiled and demoralized by the charms offset
-                        pleasure moments line desire that they cannot foresee
-                        pain and trouble that are bound ensue and equal blame
-                        belongs their duty{" "}
-                        <span className="quote right-quote">“</span>
-                      </p>
-                    </div>
-                    <div className="testimonial-footer">
-                      <div className="testimonial-author">
-                        <div className="author-image">
-                          <img
-                            src="assets/images/testimonials/author1.png"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-info">
-                          <h4>James N. Johnson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
-                        </div>
-                      </div>
-                      <div className="ratting style-two">
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star" />
-                        <i className="fas fa-star-half-alt" />
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-                <div className="testimonial-controls mt-75 rmt-40 wow fadeInUp delay-0-2s">
-                  <button className="testimonial-prev slick-arrow">
-                    <i className="far fa-chevron-left" />
-                  </button>
-                  <div className="testimonial-dots">
-                    <div className="slick-dots"></div>
-                  </div>
-                  <button className="testimonial-next slick-arrow">
-                    <i className="far fa-chevron-right" />
-                  </button>
+            <div className="col-md-6">
+              <div className="why-choose-item wow fadeInUp delay-0-3s">
+                <div className="why-choose-header">
+                  <i className="far fa-chevron-right" />
+                  <h5>Développement sur mesure</h5>
                 </div>
+                <p>
+                  Chaque projet est conçu avec rigueur et précision pour répondre parfaitement à vos objectifs d'affaires.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="why-choose-item wow fadeInUp delay-0-2s">
+                <div className="why-choose-header">
+                  <i className="far fa-chevron-right" />
+                  <h5>Sans engagement à long terme</h5>
+                </div>
+                <p>
+                  Flexibilité totale : démarrez, ajustez ou mettez en pause nos services selon l’évolution de vos besoins.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="why-choose-item wow fadeInUp delay-0-3s">
+                <div className="why-choose-header">
+                  <i className="far fa-chevron-right" />
+                  <h5>Design responsive & ultra-net</h5>
+                </div>
+                <p>
+                  Vos interfaces sont optimisées pour tous les écrans avec un rendu net, fluide et engageant, quel que soit l’appareil.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div className="col-xl-6">
+        <div className="why-choose-right wow fadeInLeft delay-0-2s">
+          <img
+            src="assets/images/services/why-choose-right.png"
+            alt="Pourquoi nous choisir"
+          />
+          <div className="why-choose-border-shape" />
+          <div className="text-shape">
+            <img
+              className="text"
+              src="assets/images/services/web-design-text.svg"
+              alt="Texte design web"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      {/* Why Choose Us end */}
+      {/* Headline area start */}
+      <div className="headline-area style-two bgc-primary pt-80 pb-65">
+  <div className="container-fluid">
+    <div className="headline-wrap marquee">
+      <span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Nos clients nous recommandent</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Clients à l'international</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Projets primés</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Nos clients nous recommandent</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Clients à l'international</b>
+        </span>
+        <span className="marquee-item">
+          <i className="fas fa-star-of-life" />
+          <b>Projets primés</b>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+
+      {/* Headline Area end */}
+      {/* Testimonial Area start */}
+      <section className="testimonial-section pt-130 rpt-90">
+  <div className="container container-1210">
+    <div className="row">
+      <div className="col-lg-6">
+        <div className="image-border-shape rmb-20 wow fadeInRight delay-0-2s">
+          <img
+            src="assets/images/testimonials/testimonials-four.jpg"
+            alt="Témoignage Client"
+          />
+          <div className="bottom-border" />
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="testimonial-one-right-part">
+          <Swiper
+            {...sliderProps.testimonialsActiveSwiper}
+            className="testimonials-active wow fadeInUp delay-0-2s"
+          >
+            <SwiperSlide className="testimonial-item">
+              <div className="author-speech">
+                <p>
+                  <span className="quote">“</span>
+                  Nous avons confié la création du site vitrine de notre garderie à cette équipe, et nous sommes plus que satisfaits du résultat. Le site est moderne, fluide et surtout magnifique sur téléphone, un vrai plus pour les parents qui consultent en mobilité.  
+                  L’équipe a été à l’écoute, professionnelle et toujours disponible pour répondre à nos demandes.  
+                  <span className="quote right-quote">”</span>
+                </p>
+              </div>
+              <div className="testimonial-footer">
+                <div className="testimonial-author">
+                  <div className="author-image">
+                    <img
+                      src="assets/images/testimonials/author1.png"
+                      alt="Client Garderie"
+                    />
+                  </div>
+                  <div className="author-info">
+                    <h4>Garderie Les Zheureux</h4>
+                    <span className="designation">Direction</span>
+                  </div>
+                </div>
+                <div className="ratting style-two">
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="testimonial-item">
+              <div className="author-speech">
+                <p>
+                  <span className="quote">“</span>
+                  Une équipe à l’écoute, qui comprend nos besoins et qui répond avec professionnalisme. Nous sommes très satisfaits de notre collaboration.
+                  <span className="quote right-quote">”</span>
+                </p>
+              </div>
+              <div className="testimonial-footer">
+                <div className="testimonial-author">
+                  <div className="author-image">
+                    <img
+                      src="assets/images/testimonials/unnamed1.png"
+                      alt="Client anonyme"
+                    />
+                  </div>
+                  <div className="author-info">
+                    <h4>Salon De Coiffure</h4>
+                    <span className="designation">Direction</span>
+                  </div>
+                </div>
+                <div className="ratting style-two">
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                  <i className="fas fa-star" />
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+
+          <div className="testimonial-controls mt-75 rmt-40 wow fadeInUp delay-0-2s">
+            <button className="testimonial-prev slick-arrow">
+              <i className="far fa-chevron-left" />
+            </button>
+            <div className="testimonial-dots">
+              <div className="slick-dots"></div>
+            </div>
+            <button className="testimonial-next slick-arrow">
+              <i className="far fa-chevron-right" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* Testimonial Area end */}
       {/* Work With Area start */}
       <section className="work-with-area pt-70 rpt-40 rel z-1">

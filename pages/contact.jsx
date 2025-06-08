@@ -20,12 +20,12 @@ const Contact = () => {
       .then(
         (result) => {
           console.log("Message envoyé :", result.text);
-          toast.success("✅ Message envoyé avec succès !");
+          toast.success("Message envoyé avec succès !");
           e.target.reset();
         },
         (error) => {
           console.error("Erreur d'envoi :", error.text);
-          toast.error("❌ Une erreur s'est produite, veuillez réessayer.");
+          toast.error("Une erreur s'est produite, veuillez réessayer.");
         }
       );
   };

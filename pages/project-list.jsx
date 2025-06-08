@@ -65,7 +65,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list2.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/MeteoDetails">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -78,7 +78,7 @@ const ProjectList = () => {
                 src="assets/images/projects/ecommerce.png"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/EcommerceDetails">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -129,7 +129,7 @@ const ProjectList = () => {
                 src="assets/images/projects/portfoliopers.png"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/RestaurantDetails">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -142,7 +142,7 @@ const ProjectList = () => {
                 src="assets/images/projects/resto.png"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/RestaurantDetails">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>

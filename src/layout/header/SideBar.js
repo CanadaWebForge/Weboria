@@ -19,12 +19,12 @@ const SideBar = () => {
       .then(
         (result) => {
           console.log("Message envoyé :", result.text);
-          toast.success("✅ Message envoyé avec succès !");
+          toast.success("Message envoyé avec succès !");
           e.target.reset();
         },
         (error) => {
           console.error("Erreur d’envoi :", error.text);
-          toast.error("❌ Une erreur s'est produite, veuillez réessayer.");
+          toast.error("Une erreur s'est produite, veuillez réessayer.");
         }
       );
   };
@@ -117,13 +117,17 @@ const SideBar = () => {
       </section>
 
       <style jsx>{`
+      
         .custom-sidebar {
-          background-color: #222;
-          color: var(--ygency-primary-color);
-          padding: 25px 20px;
-          border-radius: 8px;
-          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        }
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: fixed; /* souvent sidebar est fixed */
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 300px; /* ou ta largeur actuelle */
+}
+
 
         .title-text {
           font-weight: 600;
