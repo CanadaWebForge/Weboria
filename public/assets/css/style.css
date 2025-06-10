@@ -8226,16 +8226,19 @@ blockquote {
   .project-details-area .text {
     font-size: 18px; } }
 
-.big-letter:first-letter {
+
+.big-word {
   float: left;
   font-size: 24px;
-  margin-top: 8px;
   font-weight: 700;
-  padding: 6px 11px;
-  margin-right: 30px;
+  margin-top: 8px;
+  padding: 6px 14px;
+  margin-right: 20px;
   color: var(--ygency-dark-color);
   text-transform: uppercase;
-  background: var(--ygency-primary-color); }
+  background: var(--ygency-primary-color);
+}
+
 
 .next-prev-post {
   display: -webkit-box;
@@ -10494,4 +10497,21 @@ blockquote {
 }
 
 
+.btn-retour-projets {
+  display: inline-block;
+  padding: 14px 30px;
+  font-weight: 600;
+  color: white;
+  background-color: var(--ygency-primary-color);
+  border: 2px solid var(--ygency-primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.btn-retour-projets:hover {
+  background-color: white;
+  color: var(--ygency-primary-color);
+}
 
