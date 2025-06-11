@@ -138,7 +138,7 @@ const DefaultFooter = ({ dark }) => {
                 <p>
                   Copyright @2025,{" "}
                   <Link legacyBehavior href="/">
-                    <a>Weboria</a>
+                    <a>Qwebty</a>
                   </Link>{" "}
                   Tous droits réservés.
                 </p>
