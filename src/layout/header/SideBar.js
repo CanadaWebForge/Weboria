@@ -103,7 +103,7 @@ const SideBar = () => {
             <a href="https://www.linkedin.com/company/weboriacanada">
               <i className="fab fa-linkedin" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577088008235">
               <i className="fab fa-facebook-f" />
             </a>
             <a href="#">

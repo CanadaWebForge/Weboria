@@ -29,7 +29,7 @@ const DefaultFooter = ({ dark }) => {
             </div>
             <div className="col-lg-8 text-lg-end">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577088008235">
                   <i className="fab fa-facebook-f" /> <span>Facebook</span>
                 </a>
                 <a href="https://www.linkedin.com/company/weboriacanada">
@@ -94,7 +94,7 @@ const DefaultFooter = ({ dark }) => {
                     </Link>
                   </li>
                    <li>
-                    <Link legacyBehavior href="index2">
+                    <Link legacyBehavior href="Designweb">
                       UI/UX Design
                     </Link>
                   </li>

@@ -80,7 +80,7 @@ const Contact = () => {
                 </div>
                 <h4>Suivez-nous</h4>
                 <div className="social-style-two pt-15">
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577088008235">
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="https://github.com/webforgecanada">

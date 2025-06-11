@@ -21,14 +21,14 @@ const E404 = () => {
                   </a>
                 </Link>
                 <div className="social-style-four d-flex mt-60 rmt-35">
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577088008235">
                     <i className="fab fa-facebook-f" /> <span>Facebook</span>
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" /> <span>Twitter</span>
+                  <a href="https://www.linkedin.com/company/weboriacanada">
+                    <i className="fab fa-linkedin" /> <span>Linkedin</span>
                   </a>
-                  <a href="#">
-                    <i className="fab fa-dribbble" /> <span>Dribbble</span>
+                  <a href="https://github.com/CanadaWebForge">
+                    <i className="fab fa-github" /> <span>Github</span>
                   </a>
                 </div>
               </div>

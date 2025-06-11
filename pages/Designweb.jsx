@@ -70,7 +70,7 @@ const Designweb = () => {
           <div className="hero-bottom-image">
             <img src="assets/images/hero/hero.jpg" alt="Hero" />
             <div className="hero-social">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577088008235">
                 <i className="fab fa-facebook-f" /> <span>Facebook</span>
               </a>
               <a href="https://www.linkedin.com/company/weboriacanada">
